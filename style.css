@@ -16,6 +16,8 @@ body {
     display: flex;
     align-items: center;
     padding: 20px;
+    font-weight: 700;
+    font-size: 30px;
 }
 
 nav{
@@ -96,7 +98,20 @@ p{
 .header .row{
     margin-top: 70px;
 }
+h1 {
+    font-weight: 700;
+    color: white;
+    font-style: italic;
+}
 
+p {
+    color: white;
+}
+
+#joinnowbtn {
+    /* background-color: white; */
+    color: white;
+}
 /* memberships */
 .categories {
  
@@ -123,7 +138,7 @@ p{
 }
 /* Images */
 #GCKYdiv, #brick, #donations, #dollars {
-    background-color: white;
+    /* background-color: white; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -134,7 +149,15 @@ p{
 }
 
 #brick {
-    
+    width: 200px;
+}
+
+#dollars {
+    width: 200px;
+}
+
+#donations {
+    width: 200px;
 }
 
 /* button with images */
