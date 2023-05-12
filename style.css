@@ -3,7 +3,9 @@ body {
     background-image: url(Images/mainpage.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100vw;
     text-align: center;
+    background-attachment: fixed;
 }
 
 *{
@@ -166,3 +168,22 @@ p {
     position: relative;
     bottom: 5px;
 }
+
+
+/* MAP */
+
+#map {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 1000px;
+    left: 50px;
+    text-align: center;
+
+}
+/* #maptext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
