@@ -42,7 +42,7 @@ a{
 }
 
 p{
-    color: green;
+    color:rgba(150,202,79);
 }
 
 .container{
@@ -79,7 +79,7 @@ p{
 
 .btn{
     display: inline-block;
-    background: green;
+    background: rgba(150,202,79);
     color: yellow;
     padding: 8px 30px;
     margin: 30px 0;
@@ -87,8 +87,11 @@ p{
     transition: 0.5s;
 }
 
+.h3 {
+    color: rgba(150,202,79);
+}
 .btn :hover{
-    background: green;
+    background: rgba(47, 255, 0, 0.387);
 }
 
 
@@ -107,7 +110,7 @@ h1 {
 }
 
 p {
-    color: white;
+    color: rgba(47, 255, 0, 0.387);
 }
 
 #joinnowbtn {
@@ -182,7 +185,7 @@ p {
     top: 1000px;
     left: 50px;
     text-align: center;
-
+    text-decoration-color: blue;
 }
 /* #maptext {
     display: flex;
